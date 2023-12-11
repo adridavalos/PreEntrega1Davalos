@@ -26,12 +26,6 @@ let obtenerCalificacion = () => {
 let solicitarAlUsuarioNombre = () => {
     return prompt("Insegrese nombre del alumno: ");
 }
-/**
- * Calcula el promedio.
- * @param  cantidad - El divisor.
- * @param  total - El dividendo.
- * @returns  El promedio obtenido.
- */
 const calculoPromedio = (cantidad, total) => total / cantidad;
 
  //VARIABLES GLOBALES
@@ -48,7 +42,7 @@ let nombreMenorCalificacion = "";
 
 //ESTRUCTURA
 alert(
-    "Calcula el promedio de las calificaciones, la calificacion mas alta y la mas baja"
+    "Calcula el promedio de las calificaciones, quien obtuvo la calificacion mas alta y la mas baja"
   );
 let cantidadObtenida = obtenerCantidadAlumno();
 for (let i = 0; i < cantidadObtenida; i++) {
